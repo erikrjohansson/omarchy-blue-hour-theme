@@ -13,7 +13,7 @@ Blue twilight through misted glass, with slate-blue surfaces and a coordinated d
 For **Omarchy 4 with Omarchy Shell**:
 
 ```sh
-omarchy theme install https://github.com/ejuro/omarchy-blue-hour-theme
+omarchy theme install https://github.com/erikrjohansson/omarchy-blue-hour-theme
 ```
 
 Use `omarchy theme bg next` to cycle through the logo, wordmark, and background-only wallpapers.
@@ -33,7 +33,7 @@ Three **2560 × 1440** wallpapers are included.
 
 ## Misted Glass collection
 
-[Misty Sunset](https://github.com/ejuro/omarchy-misty-sunset-theme) · [Blue Hour](https://github.com/ejuro/omarchy-blue-hour-theme) · [Cool Dawn](https://github.com/ejuro/omarchy-cool-dawn-theme)
+[Misty Sunset](https://github.com/erikrjohansson/omarchy-misty-sunset-theme) · [Blue Hour](https://github.com/erikrjohansson/omarchy-blue-hour-theme) · [Cool Dawn](https://github.com/erikrjohansson/omarchy-cool-dawn-theme)
 
 ## License
 
