@@ -1,0 +1,58 @@
+/* @settings
+name: Blue Hour (AnuPpuccin companion)
+id: anuppuccin-blue-hour
+settings:
+  -
+    id: anp-blue-hour
+    title: Blue Hour palette
+    description: Applies the Blue Hour Omarchy theme palette to AnuPpuccin (dark mode only).
+    type: class-toggle
+*/
+
+/*
+ * Blue Hour palette for the AnuPpuccin Obsidian theme
+ * https://github.com/erikrjohansson/omarchy-blue-hour-theme
+ *
+ * Only the surfaces and neutral text colours come from the Blue Hour theme
+ * (colors.toml). The 14 accent colours (rosewater ... lavender), which drive
+ * headings, callouts, Rainbow Folders, tags, etc., are intentionally left
+ * identical to AnuPpuccin's "Material Mint" flavour so that coloured text keeps
+ * its contrast and meaning. overlay0 is not part of colors.toml and is
+ * interpolated between hyprland_inactive_border and hyprland_active_border.
+ *
+ * Requires: the AnuPpuccin theme + the "Style Settings" plugin (for the toggle).
+ * Independent of AnuPpuccin's own extended-colorschemes.css snippet.
+ */
+body.theme-dark.anp-blue-hour,
+.anp-blue-hour .themed-color-wrapper > .theme-dark {
+  --ctp-ext-rosewater: 245, 224, 220; /* Material Mint */
+  --ctp-ext-flamingo: 242, 205, 205; /* Material Mint */
+  --ctp-ext-pink: 245, 194, 231; /* Material Mint */
+  --ctp-ext-mauve: 203, 166, 247; /* Material Mint */
+  --ctp-ext-red: 243, 139, 168; /* Material Mint */
+  --ctp-ext-maroon: 235, 160, 172; /* Material Mint */
+  --ctp-ext-peach: 250, 179, 135; /* Material Mint */
+  --ctp-ext-yellow: 249, 226, 175; /* Material Mint */
+  --ctp-ext-green: 166, 227, 161; /* Material Mint */
+  --ctp-ext-teal: 189, 214, 219; /* Material Mint */
+  --ctp-ext-sky: 137, 220, 235; /* Material Mint */
+  --ctp-ext-sapphire: 116, 199, 236; /* Material Mint */
+  --ctp-ext-blue: 135, 176, 249; /* Material Mint */
+  --ctp-ext-lavender: 180, 190, 254; /* Material Mint */
+  --ctp-ext-text: 240, 243, 250; /* #F0F3FA */
+  --ctp-ext-subtext1: 222, 229, 240; /* #DEE5F0 */
+  --ctp-ext-subtext0: 202, 215, 234; /* #CAD7EA */
+  --ctp-ext-overlay2: 178, 192, 214; /* #B2C0D6 */
+  --ctp-ext-overlay1: 138, 159, 189; /* #8A9FBD */
+  --ctp-ext-overlay0: 110, 129, 156; /* #6E819C */
+  --ctp-ext-surface2: 81, 98, 122; /* #51627A */
+  --ctp-ext-surface1: 68, 83, 108; /* #44536C */
+  --ctp-ext-surface0: 45, 57, 74; /* #2D394A */
+  --ctp-ext-base: 34, 43, 56; /* #222B38 */
+  --ctp-ext-mantle: 27, 35, 48; /* #1B2330 */
+  --ctp-ext-crust: 21, 28, 39; /* #151C27 */
+}
+
+body.theme-dark.anp-blue-hour {
+  --ctp-accent: 166, 185, 218;
+}
