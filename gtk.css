@@ -65,5 +65,5 @@
 
 selection { background-color: #123552; color: #EEF4FB; }
 button.suggested-action { background-color: #98BAE5; color: #03111D; }
-button.suggested-action:hover { background-color: #DCE5F4; color: #03111D; }
+button.suggested-action:hover { background-color: #C5D9F6; color: #03111D; }
 button.destructive-action { background-color: #D4A6AD; color: #03111D; }
