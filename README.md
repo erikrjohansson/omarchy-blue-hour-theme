@@ -38,16 +38,18 @@ omarchy theme remove blue-hour
 
 ## Wallpapers
 
-Two 6K (6016 × 3384) wallpapers: dusk (default) and branches. Switch between them with `omarchy theme bg next`, or from the Omarchy menu under Style → Background.
+Three 6K (6016 × 3384) wallpapers: dusk (default), branches and cabin. Switch between them with `omarchy theme bg next`, or from the Omarchy menu under Style → Background.
 
 <table>
   <tr>
-    <td width="50%"><img src="previews/dusk.jpg" alt="Dusk wallpaper, Blue Hour"></td>
-    <td width="50%"><img src="previews/branches.jpg" alt="Branches wallpaper, Blue Hour"></td>
+    <td width="33%"><img src="previews/dusk.jpg" alt="Dusk wallpaper, Blue Hour"></td>
+    <td width="33%"><img src="previews/branches.jpg" alt="Branches wallpaper, Blue Hour"></td>
+    <td width="33%"><img src="previews/cabin.jpg" alt="Cabin wallpaper, Blue Hour"></td>
   </tr>
   <tr>
     <td align="center">Dusk</td>
     <td align="center">Branches</td>
+    <td align="center">Cabin</td>
   </tr>
 </table>
 
